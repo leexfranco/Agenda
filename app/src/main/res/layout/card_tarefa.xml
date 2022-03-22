@@ -74,7 +74,7 @@
             tools:text="Categoria" />
 
         <Button
-            android:id="@+id/buttonExcluir"
+            android:id="@+id/buttonEx"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"

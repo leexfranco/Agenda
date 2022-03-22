@@ -21,7 +21,8 @@ import com.generation.myapplication.model.Tarefa
         val textData = view.findViewById<TextView>(R.id.textData)
         val switchAnd = view.findViewById<Switch>(R.id.switchAnd)
         val textCategoria = view.findViewById<TextView>(R.id.textCategoria)
-        val buttonExcluir = view.findViewById<Button>(R.id.buttonExcluir)
+        val buttonEx = view.findViewById<Button>(R.id.buttonEx)
+
 
     }
 

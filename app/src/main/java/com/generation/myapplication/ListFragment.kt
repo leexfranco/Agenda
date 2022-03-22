@@ -59,9 +59,9 @@ class ListFragment : Fragment() {
 
         recyclerTarefa.adapter = adapter
 
-        recyclerTarefa.serHasFixedSize(true)
+        recyclerTarefa.setHasFixedSize(true)
 
-        adapter.setLista(listTarefas)
+        adapter.setLista(listTarefa)
 
         return view
 
