@@ -40,7 +40,7 @@ import com.generation.myapplication.model.Tarefa
             holder.textResp.text = tarefaH.responsavel
             holder.textData.text = tarefaH.data
             holder.switchAnd.isChecked = tarefaH.status
-            holder.textCategoria.text = tarefaH.caregoria
+            holder.textCategoria.text = tarefaH.caregoria.descricao
 
         }
 

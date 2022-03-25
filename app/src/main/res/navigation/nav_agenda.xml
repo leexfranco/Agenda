@@ -9,5 +9,18 @@
         android:id="@+id/listFragment"
         android:name="com.generation.myapplication.ListFragment"
         android:label="fragment_list"
-        tools:layout="@layout/fragment_list" />
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_formFragment2"
+            app:destination="@id/formFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/formFragment2"
+        android:name="com.generation.myapplication.FormFragment"
+        android:label="fragment_form"
+        tools:layout="@layout/fragment_form" >
+        <action
+            android:id="@+id/action_formFragment2_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
 </navigation>

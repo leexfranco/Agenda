@@ -14,7 +14,7 @@ object ServiceModule {
     @Provides
     @Singleton
 
-    fun providesRepository() :: Repository{
+    fun providesRepository(): Repository{
         return Repository()
     }
 }

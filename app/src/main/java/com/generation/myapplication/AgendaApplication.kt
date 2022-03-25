@@ -5,5 +5,5 @@ import dagger.hilt.android.HiltAndroidApp
 
 
 @HiltAndroidApp
-class AgendaApplication : Application {
+class AgendaApplication : Application() {
 }
